@@ -1,0 +1,9 @@
+{
+  "development": {
+    "username": "qtwhpadr",
+    "password": "KHvmwOFWp3kC7IYM5LAhIDpMo4IG2o22",
+    "database": "qtwhpadr",
+    "host": "silly.db.elephantsql.com",
+    "dialect": "postgres"
+  }
+}
