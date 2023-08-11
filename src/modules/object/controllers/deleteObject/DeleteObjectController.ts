@@ -4,7 +4,7 @@ import { DeleteObjectUseCase } from "./DeleteObjectUseCase";
 
 class DeleteObjectController {
   async handle(request: Request, response: Response): Promise<Response> {
-    const { id } = request.body;
+    const { id } = request.params;
 
     const deleteObjectUseCase = new DeleteObjectUseCase();
 
