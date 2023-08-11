@@ -9,7 +9,7 @@ class DeleteObjectUseCase {
       id
   }: IRequest) {
     try {
-      await Todo.destroy({ where: { id: 2 } });
+      await Todo.destroy({ where: { id: id } });
       return 201;
     } catch (error) {
       return 401
